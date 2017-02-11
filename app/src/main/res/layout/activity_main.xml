@@ -39,15 +39,17 @@
 
         <TextView style="@style/contactData"
             android:drawableLeft="@drawable/telephone"
-            android:id="@+id/Phone"
+            android:autoLink="phone"
             android:text="@string/Phone"/>
 
         <TextView style="@style/contactData"
             android:drawableLeft="@drawable/envelope"
+            android:autoLink="email"
             android:text="@string/Email" />
 
         <TextView style="@style/contactData"
             android:drawableLeft="@drawable/www"
+            android:autoLink="web"
             android:text="@string/www" />
 
         <TextView style="@style/contactData"
