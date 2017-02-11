@@ -4,85 +4,60 @@
     xmlns:tools="http://schemas.android.com/tools"
     style="@style/main"
     android:id="@+id/activity_main"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:fillViewport="true"
-    android:orientation="vertical"
     tools:context="com.lkupinski.perfekt.MainActivity"
     tools:ignore="ContentDescription">
 
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical">
+    <LinearLayout style="@style/main">
 
-        <ImageView style="@style/main"
-            android:id="@+id/logo"
-            android:src="@drawable/logo"
-            android:scaleType="centerCrop"
-            android:adjustViewBounds="true" />
+
+        <ImageView style="@style/logo"
+            android:src="@drawable/logo" />
 
         <ImageView
-            android:id="@+id/maszyna"
             android:layout_width="match_parent"
             android:layout_height="200dp"
             android:scaleType="centerCrop"
             android:src="@drawable/maszyna" />
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+
+        <View
+            style="@style/line"/>
 
         <TextView style="@style/header"
-            android:id="@+id/header"
             android:text="@string/AboutUs"/>
 
         <TextView style="@style/text"
-            android:id="@+id/text"
-            android:layout_below="@id/header"
             android:text="@string/opis" />
 
-        <ImageView
-            android:id="@+id/telephone"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/text"
-            android:src="@drawable/telephone"/>
+        <View
+            style="@style/line"
+            android:layout_width="250dp"
+            android:layout_gravity="center"/>
 
-            <TextView style="@style/contact"
-                android:id="@+id/Phone"
-                android:text="@string/Phone"
-                android:layout_toRightOf="@id/telephone"
-                android:layout_toEndOf="@id/telephone"
-                android:layout_below="@id/text"/>
-        <ImageView
-            android:id="@+id/envelope"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/telephone"
-            android:src="@drawable/envelope" />
+        <TextView style="@style/header"
+            android:text="@string/ContactUs"/>
 
-            <TextView style="@style/contact"
-                android:id="@+id/Email"
-                android:text="@string/Email"
-                android:layout_toRightOf="@id/envelope"
-                android:layout_toEndOf="@id/envelope"
-                android:layout_below="@id/Phone"/>
-        <ImageView
-            android:id="@+id/redish"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/envelope"
-            android:src="@drawable/redish" />
+        <TextView style="@style/contactData"
+            android:drawableLeft="@drawable/telephone"
+            android:id="@+id/Phone"
+            android:text="@string/Phone"/>
 
-            <TextView style="@style/contact"
-                android:text="@string/Adress"
-                android:layout_toEndOf="@id/envelope"
-                android:layout_toRightOf="@id/envelope"
-                android:layout_below="@id/Email"/>
-        </RelativeLayout>
+        <TextView style="@style/contactData"
+            android:drawableLeft="@drawable/envelope"
+            android:text="@string/Email" />
+
+        <TextView style="@style/contactData"
+            android:drawableLeft="@drawable/www"
+            android:text="@string/www" />
+
+        <TextView style="@style/contactData"
+            android:drawableLeft="@drawable/redish"
+            android:paddingLeft="56dp"
+            android:text="@string/Adress" />
+        <View
+            style="@style/line"/>
+
+
     </LinearLayout>
-
-
 
 </ScrollView>

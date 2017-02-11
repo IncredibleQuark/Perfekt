@@ -1,10 +1,11 @@
 <resources>
     <string name="app_name">Perfekt</string>
-    <string name="opis">Jesteśmy producentem z kilkunastoletnim doświadczeniem w branży obróbki skrawaniem.
-        Nasza działalność obejmuje mało, średnio I wielkoseryjną produkcję części metalowych,
-        aluminiowych, ze stali nierdzewnej, kwasoodpornej, ABS, PA, czy też innych materiałów wg indywidualnych wymagań.</string>
-    <string name="AboutUs">About Us</string>
-    <string name="Phone">Phone Number</string>
-    <string name="Email">E-mail</string>
-    <string name="Adress">Adress</string>
+    <string name="opis">"      We are a manufacturer with many years of experience in machining. Our business covers low, medium and mass series production of metal parts, aluminum, stainless steel, steel, ABS, PA, or other materials according to individual requirements. Responding to market demand, we continue to invest in the expansion of the machine park, which enables us to offer a wide range of services and opportunities. \n       We hope for your interest and invite you to cooperation based on partnership!"
+    </string>
+    <string name="AboutUs">About Company</string>
+    <string name="ContactUs">Contact Us</string>
+    <string name="Phone">"  +48 600 100 200"</string>
+    <string name="Email">"  biuro@perfektstal.eu"</string>
+    <string name="Adress">" Kowale Pańskie 13,\n 62-704 Kawęczyn Kolonia"</string>
+    <string name="www">"    www.perfektstal.eu"</string>
 </resources>
